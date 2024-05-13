@@ -1,0 +1,65 @@
+/* *{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  width: 592px;
+  margin: 0px auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+#footer a + a { 
+  margin-left: 28px;
+}
+/* `-> Pega o "a" que, anterior a ele, também tem um "a", ou seja, vai pegar o "a" referente ao 
+       "Fale Conosco", justamente porque antes dele tem o "a" do "Instagram". 
+       Tenho que fazer isso assim porque, se eu colocar só "#footer a", ele vai criar uma margem 
+       à esquerda tanto no "Instagram" quanto no "Fale Conosco" e isso vai desalinhar o footer em 
+       relação ao centro da página. */
+
+.line {
+  width: 568px;
+  height: 0;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
